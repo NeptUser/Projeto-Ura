@@ -1,8 +1,41 @@
-//fazer garra para poegar blocos que representam quantidades numericas e colocar-los em espaçosdesiginados para ensiar as crianças sobre dezena centana unidad e milhar
-+
+#include <Servo.h>
+#include "SevSeg.h"
+
+//INTERACAO
+int pot = A4
+int potst = 0;
+int butL =;
+int butS =;
+
+//SENSORES
+int ldrM = A0;
+int ldrC = A1;
+int ldrD = A2;
+int ldrU = A3;
+int ldrMst = 0;
+int ldrCst = 0;
+int ldrDst = 0;
+int ldrUst = 0;
+
+//ELETROMECANICA
+int servoM = 3;
+int servoC = 4;
+int servoD = 5;
+int servoU = 6;
+int servoL = 2;
+int motorL = 8;
+
+void atuadorM(){
+
+}
+void atuadorC()
+void atuadorD()
+void atuadorU()
+
+
 void setup() {
   // put your setup code here, to run once:
-  
+  Serial.begin(9600);
 }
 
 void loop() {
