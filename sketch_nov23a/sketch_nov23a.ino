@@ -1,5 +1,6 @@
 #include <Servo.h>
 #include "SevSeg.h"
+//VARIAVEIS
 
 //INTERACAO
 int pot = A4
@@ -24,14 +25,21 @@ int servoD = 5;
 int servoU = 6;
 int servoL = 2;
 int motorL = 8;
-
-void atuadorM(){
+void clicount(int &M, int &C, int &D, int ){
 
 }
-void atuadorC()
-void atuadorD()
-void atuadorU()
+void atuadorM(int click){
 
+}
+void atuadorC(int click){
+
+}
+void atuadorD(int click){
+
+}
+void atuadorU(int click){
+
+}
 
 void setup() {
   // put your setup code here, to run once:
